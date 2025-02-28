@@ -29,7 +29,7 @@ function App() {
     setIsLoading(true);
 
     try {
-      const response = await axios.post("http://localhost:3000/ask", { question: text });
+      const response = await axios.post("https://schoolchatbot-27vz.onrender.com/ask", { question: text });
 
       // Add chatbot's response
       const botMessage = {
