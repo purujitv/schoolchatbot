@@ -9,7 +9,7 @@ const app = express();
 
 // CORS Middleware
 app.use(cors({
-    origin: 'http://localhost:5173', // Vite frontend
+    origin: 'https://schoolchatbot.vercel.app', // Vite frontend
     methods: ['GET', 'POST'],
     credentials: true
 }));
